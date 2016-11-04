@@ -137,8 +137,18 @@ namespace WcfBiblioteca {
         }
 
         [WebMethod]
-        public void delete(int codUsuario) {
-            uS.delete(codUsuario);
+        public UsuarioWS delete(int codUsuario) {
+            UsuarioWS usuario = null;
+            WsSOAP.Models.Usuario aux = uS.getById(codUsuario);
+
+            if(aux == null) {
+                usuario = new UsuarioWS();
+                usuario.ErrorMessage = "Usuario no encontrado.";
+            } else {
+                uS.delete(codUsuario);
+            }
+
+            return usuario;   
         }
 
         [WebMethod]
@@ -163,7 +173,7 @@ namespace WcfBiblioteca {
         public UsuarioWS update(UsuarioWS usuario) {
             WsSOAP.Models.Usuario aux = new WsSOAP.Models.Usuario();
 
-            aux.CodUsuario = usuario.CodUsuario;
+            aux.CodUsuario = usuario.CodUsuario.Value;
             aux.Nombre = usuario.Nombre;
             aux.Apellidos = usuario.Apellidos;
             aux.Dni = usuario.Dni;

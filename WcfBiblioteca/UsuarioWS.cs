@@ -5,17 +5,17 @@ using System.Web;
 
 namespace WcfBiblioteca {
     public class UsuarioWS {
-        int codUsuario;
+        int? codUsuario;
         string nombre;
         string apellidos;
-        DateTime fNacimiento;
+        DateTime? fNacimiento;
         string dni;
         string email;
         string username;
         string passwd;
         string errorMessage;
 
-        public int CodUsuario {
+        public int? CodUsuario {
             get {
                 return codUsuario;
             }
@@ -45,7 +45,7 @@ namespace WcfBiblioteca {
             }
         }
 
-        public DateTime FNacimiento {
+        public DateTime? FNacimiento {
             get {
                 return fNacimiento;
             }
