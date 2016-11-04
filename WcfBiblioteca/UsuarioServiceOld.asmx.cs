@@ -15,7 +15,6 @@ namespace WcfBiblioteca {
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
     // [System.Web.Script.Services.ScriptService]
     public class UsuarioServiceOld : System.Web.Services.WebService {
-
         WsSOAP.BBLL.interfaces.UsuarioService uS;
 
         public UsuarioServiceOld() {
