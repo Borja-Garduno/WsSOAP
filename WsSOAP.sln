@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsSOAP", "WsSOAP\WsSOAP.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsSOAP.Tests", "WsSOAP.Tests\WsSOAP.Tests.csproj", "{6569A0CD-5F53-4013-81E1-45C695FE422C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfBiblioteca", "WcfBiblioteca\WcfBiblioteca.csproj", "{80E49D07-0FBD-4548-B9C1-F7FD2649B2FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FF582AE4-0CA9-4B7C-B380-524085E99E31} = {FF582AE4-0CA9-4B7C-B380-524085E99E31}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{6569A0CD-5F53-4013-81E1-45C695FE422C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6569A0CD-5F53-4013-81E1-45C695FE422C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6569A0CD-5F53-4013-81E1-45C695FE422C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E49D07-0FBD-4548-B9C1-F7FD2649B2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E49D07-0FBD-4548-B9C1-F7FD2649B2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E49D07-0FBD-4548-B9C1-F7FD2649B2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E49D07-0FBD-4548-B9C1-F7FD2649B2FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
