@@ -76,7 +76,9 @@
     </Compile>
     <Compile Include="UsuarioWS.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\gestion-libreria-v3.0.bak" />
     <None Include="Web.Debug.config">
