@@ -9,15 +9,17 @@ namespace WsSOAP.Controllers
 {
     public class UsuarioController : Controller
     {
+        SOAPService.UsuarioClient service = new SOAPService.UsuarioClient();
+
         // GET: Usuario
         public ActionResult Index()
         {
-            
-            SOAPService.UsuarioClient service = new SOAPService.UsuarioClient();
             IList<Usuario> usuarios = service.getAll();
-
-
             return View(usuarios);
+        }
+
+        public void Delete(int codUsuario) {
+            service.delete(codUsuario);
         }
     }
 }
