@@ -1,0 +1,13 @@
+﻿@*Estas en View / Home / Index*@
+@model IList<WsSOAP.SOAPService.Usuario>
+@{
+    Layout = "~/Views/shared/_Layout.cshtml";
+    ViewBag.Title = "Usuario";
+}
+
+<h2>Index</h2>
+
+@foreach (var usuario in Model) {
+    @usuario.Nombre @usuario.Apellidos
+    <br/>
+}
