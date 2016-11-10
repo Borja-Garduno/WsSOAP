@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfBiblioteca", "WcfBibliot
 		{FF582AE4-0CA9-4B7C-B380-524085E99E31} = {FF582AE4-0CA9-4B7C-B380-524085E99E31}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest", "Rest\Rest.csproj", "{60F152AD-4460-4AD5-A2BC-D90827820A71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{80E49D07-0FBD-4548-B9C1-F7FD2649B2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E49D07-0FBD-4548-B9C1-F7FD2649B2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E49D07-0FBD-4548-B9C1-F7FD2649B2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F152AD-4460-4AD5-A2BC-D90827820A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F152AD-4460-4AD5-A2BC-D90827820A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F152AD-4460-4AD5-A2BC-D90827820A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F152AD-4460-4AD5-A2BC-D90827820A71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
