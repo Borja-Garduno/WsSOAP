@@ -127,7 +127,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="BBLL\interfaces\UsuarioService.cs" />
     <Compile Include="BBLL\UsuarioServiceImp.cs" />
-    <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="DAL\interfaces\UsuarioRepository.cs" />
     <Compile Include="DAL\UsuarioRepositoryImp.cs" />
     <Compile Include="Global.asax.cs">
